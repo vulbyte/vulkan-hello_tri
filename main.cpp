@@ -107,6 +107,10 @@ private:
         createImageViews();
     }
 
+    void createGraphicsPipeline(){
+
+    }
+
     void mainLoop() {
         while (!glfwWindowShouldClose(window)) {
             glfwPollEvents();
